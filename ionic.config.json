@@ -1,0 +1,7 @@
+{
+  "name": "sSistemasExpertos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
