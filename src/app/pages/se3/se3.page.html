@@ -1,0 +1,63 @@
+<!-- Usare Header Personalizado -->
+<app-header> </app-header>
+
+<ion-content class="ion-padding">
+  <h3>Estoy en Pagina SE3</h3>
+
+  <!-- Elemente Ichip -->
+  <ion-chip color="primary" outline="true">
+    <!-- Agregar un Avatar -->
+    <ion-avatar>
+     <ion-img src="/assets/Unah_Puma.jpg"></ion-img>
+    </ion-avatar>
+    <ion-label>Elemento Ion-Chip</ion-label>
+  </ion-chip>
+
+  <!-- Crear una Lista de Avatars -->
+  <h3>Lista de Avatars</h3>
+  <ion-list>
+    <ion-item *ngFor="let item of [1,1,1,1,1,1,1]">
+      <ion-avatar slot="start">
+        <img src="/assets/Unah_Puma.jpg" />
+      </ion-avatar>
+      <ion-label>Lista de Avatars</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <!-- Crear ion-card -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Sistemas Expertos (Title)</ion-card-title>
+      <ion-card-subtitle>Mi tarjeta Personalizada (Subtitulo)</ion-card-subtitle>
+    </ion-card-header>
+    <!-- Crear Contenido -->
+    <ion-card-content>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur consectetur quo architecto mollitia! Facere tempora neque ullam dicta, dolorem illum beatae non iste deleniti. Ipsam fugit incidunt enim cupiditate maiores.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Crear ion-card con Item-->
+  <ion-card>
+    <ion-item color="primary">
+      <ion-label>Card Item</ion-label>
+      <ion-icon slot="start" name="bicycle-outline"></ion-icon>
+    </ion-item>
+    <!-- Crear Contenido -->
+    <ion-card-content>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur consectetur quo architecto mollitia! Facere tempora neque ullam dicta, dolorem illum beatae non iste deleniti. Ipsam fugit incidunt enim cupiditate maiores.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Crear ion-card con Imagen-->
+  <ion-card>
+    <ion-item color="danger">
+      <ion-label>Card Item</ion-label>
+      <ion-icon slot="start" name="bicycle-outline"></ion-icon>
+    </ion-item>
+    <ion-img src="https://i0.wp.com/www.frusps.com/wp-content/uploads/2016/04/logo.png?resize=300%2C150"></ion-img>
+    <!-- Crear Contenido -->
+    <ion-card-content>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur consectetur quo architecto mollitia! Facere tempora neque ullam dicta, dolorem illum beatae non iste deleniti. Ipsam fugit incidunt enim cupiditate maiores.
+    </ion-card-content>
+  </ion-card>
+</ion-content>

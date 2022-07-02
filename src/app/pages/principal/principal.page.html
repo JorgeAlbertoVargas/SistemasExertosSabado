@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Principal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <H3>Pagina Principal</H3>
+
+  <!-- Crear un Boton -->
+  <ion-button (click)="onClickSE1()" expand="block" routerLink="/se1">
+    Ir a Pagina SE-1 ( Action-Sheet)
+  </ion-button>
+
+  <!-- Crear un Boton -->
+  <ion-button (click)="onClickSE2()" expand="block" routerLink="/se2">
+    Ir a Pagina SE-2 (Ion-Alert)
+  </ion-button>
+
+  <!-- Crear un Boton -->
+  <ion-button (click)="onClickSE3()" expand="block" routerLink="/se3">
+    Ir a Pagina SE-3 (Ion-Card)
+  </ion-button>
+  <!-- Crear un Boton -->
+  <ion-button (click)="onClickSE4()" expand="block" routerLink="/se4">
+    Ir a Pagina SE-4 (DataService)
+  </ion-button>
+</ion-content>
+
+
+<!-- Agregar un Foother -->
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Pie de Pagina</ion-title>
+  </ion-toolbar>
+</ion-footer>
